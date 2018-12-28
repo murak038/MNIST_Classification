@@ -2,10 +2,10 @@
 As a introduction to TensorFlow for CSCI 5525 - Machine Learning, we had to carry out digit classification using various techniques on the MNIST dataset. This was used to demonstrate the increased performance of deep learning techniques such as convolutional neural networks (CNN) and recurrent neural networks (RNN) over the standard logistic regression model.
 
 The different model used in thsi comparative analysis are:
-1. One Layer Logistic Regression Model ('TFLogReg.py')
-2. Logistic Regression Model with 2 Hidden Layers ('ImproveLogReg.py')
-3. Convolutional Neural Network ('ConvNetTemplate.py')
-4. Long Short-Term Memory ('LSTM.py')
+1. One Layer Logistic Regression Model (`TFLogReg.py`)
+2. Logistic Regression Model with 2 Hidden Layers (`ImproveLogReg.py`)
+3. Convolutional Neural Network (`ConvNetTemplate.py`)
+4. Long Short-Term Memory (`LSTM.py`)
 
 ## Logistic Regression
 In this model, the MNIST images were unrolled into a 1D tensor that was fed into the input layer of the model. The input feature values were then directly mapped to the output layer for classification. 
